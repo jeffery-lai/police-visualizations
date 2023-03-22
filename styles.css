@@ -1,0 +1,82 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+    font-size: 36px;
+}
+
+.analysis {
+    margin: auto;
+    text-align: justify;
+    width: 800;
+    height: "fit-content";
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.subhead {
+    text-align: center;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.slidecontainer {
+    margin: 0 auto;
+    width: 250px;
+}
+  
+.slider {
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+
+div.tooltip{
+    position: absolute;
+    text-align: center;
+    width: "fit-content";
+    height: "fit-content";
+    padding: 5px;
+    background: white;
+    pointer-events: none;
+}
+
+div.left-tooltip{
+    position: absolute;
+    text-align: right;
+    width: "fit-content";
+    height: "fit-content";
+    padding: 5px;
+    background: white;
+    pointer-events: none;
+}
+
+div.tooltip-line {
+    position: absolute;
+    width: 3000px;
+    height: 2px;
+    background: black;
+    pointer-events: none;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.checkLabel {
+    font-size: 18px;
+}
